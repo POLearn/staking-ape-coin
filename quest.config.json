@@ -35,6 +35,37 @@
             ]
         },
         {
+            "path": "01_ape_coin/02_approving_ape_staking_contract",
+            "description": "Prerequisite to appoving tokens for ApeCoin Staking",
+            "type": "transaction",
+            "chain": "11155111",
+            "contract": "0x755457DBC2aAa7568169C58942755c8Bf2b406d1",
+            "abi": [
+                {
+                    "inputs": [
+                        {
+                            "internalType": "address",
+                            "name": "to",
+                            "type": "address"
+                        },
+                        {
+                            "internalType": "uint256",
+                            "name": "amount",
+                            "type": "uint256"
+                        }
+                    ],
+                    "name": "mint",
+                    "outputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function"
+                }
+            ],
+            "args": [
+                "0x69a2e10e626a08654017075B7B0B1797ae67fe50",
+                "100000000000000000000"
+            ]
+        },
+        {
             "path": "02_minting_a_bayc",
             "description": "Transaction for minting 1 BAYC to an address",
             "type": "transaction",

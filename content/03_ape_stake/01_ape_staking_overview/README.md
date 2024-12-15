@@ -1,4 +1,4 @@
-### ApeCoin Staking Contract: An Interactive Guide  
+# ApeCoin Staking Contract  
 
 The **ApeCoin Staking Contract** is the cornerstone of staking within the Ape ecosystem, enabling holders of **ApeCoin** and ecosystem NFTs like **BAYC** to earn rewards. Depending on whether you are working on the mainnet or a testnet, the contract address differs:  
 

@@ -1,4 +1,4 @@
-### Staking a BAYC with $APE
+# Staking a BAYC with $APE
 
 Staking your Bored Ape Yacht Club (BAYC) NFT alongside ApeCoin ($APE) is a great way to engage with the ApeCoin ecosystem and earn rewards. By this point, you should have already minted *100 $APE* and acquired a *BAYC* on the Ethereum Testnet. Now, you're ready to interact with the ApeCoin Staking Contract.
 

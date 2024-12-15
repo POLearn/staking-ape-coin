@@ -1,4 +1,4 @@
-# Exploring the ApeCoin Staking Contract
+# Exploring the ApeCoin Staking
 
 In the next resource, we'll be exploring the *ApeCoin staking contract*, designed to boost engagement within the ApeCoin DAO ecosystem. Inspired by community-driven Ape Improvement Proposals (AIP) [21](https://forum.apecoin.com/t/aip-21-staking-process-with-caps-1x-drop-process/5074) and [22](https://forum.apecoin.com/t/aip-22-staking-pool-allocation-reloaded-ecosystem-fund-allocation/5071), ApeCoin staking allows holders to stake their tokens in various pools and earn rewards in the form of ApeCoin. While anyone holding ApeCoin can participate, additional pools offer exclusive rewards for those who own NFTs within the Bored Apes ecosystem.
 

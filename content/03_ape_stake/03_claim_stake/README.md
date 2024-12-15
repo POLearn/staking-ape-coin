@@ -1,4 +1,4 @@
-### Claiming $APE Rewards
+# Claiming $APE Rewards
 
 If you've staked your BAYC NFT and want to claim your rewards without unstaking your NFT, the process is simple. Here's how you can easily claim your ApeCoin rewards:
 

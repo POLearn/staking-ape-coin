@@ -45,7 +45,7 @@
                     "inputs": [
                         {
                             "internalType": "address",
-                            "name": "to",
+                            "name": "spender",
                             "type": "address"
                         },
                         {
@@ -54,8 +54,14 @@
                             "type": "uint256"
                         }
                     ],
-                    "name": "mint",
-                    "outputs": [],
+                    "name": "approve",
+                    "outputs": [
+                        {
+                            "internalType": "bool",
+                            "name": "",
+                            "type": "bool"
+                        }
+                    ],
                     "stateMutability": "nonpayable",
                     "type": "function"
                 }

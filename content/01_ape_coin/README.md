@@ -1,23 +1,23 @@
-# Introduction to ApeCoin 
+# ApeCoin 介绍
 
 ![](https://upload.wikimedia.org/wikipedia/en/c/c4/Various_Bored_Ape.jpg)
 
-Before we get started with Ape Staking, it is best to understand what ApeCoin (APE) is. ApeCoin is a governance and utility token at the heart of the APE ecosystem, created to drive innovation and support the next evolution of web3. It enables its community to build and shape culture in the metaverse through art, gaming, entertainment, and events. As an ERC-20 token, ApeCoin provides a decentralized protocol layer for community-led initiatives, empowering holders to vote, create, and participate in projects that define the future of blockchain culture.  
+在我们开始 Ape Staking 之前，最好先了解一下 ApeCoin (APE) 是什么。ApeCoin 是位于 APE 生态系统核心的治理和实用代币，旨在推动创新并支持 Web3 的下一次进化。它使社区能够通过艺术、游戏、娱乐和活动在元宇宙中建设和塑造文化。作为 ERC-20 代币，ApeCoin 提供了一个去中心化的协议层，用于社区主导的倡议，使持有者能够投票、创建和参与定义区块链文化未来的项目。
 
-Backed by the **APE Foundation**, ApeCoin is governed by the **ApeCoin DAO**, ensuring transparent, decentralized decision-making. Beyond governance, APE offers access to exclusive games, events, and services, while also unifying the ecosystem with a shared currency.
+ApeCoin 由 **APE 基金会** 支持，且由 **ApeCoin DAO** 治理，确保透明且去中心化的决策过程。除了治理，APE 还提供访问独家游戏、活动和服务的权限，同时通过共享货币统一了生态系统。
 
 ## ApeCoin DAO
 
-The ApeCoin DAO is the backbone of the ApeCoin ecosystem, allowing token holders to directly influence its future. As a decentralized autonomous organization, ApeCoin gives its holders governance rights to vote on projects, developments, and initiatives. While the Ape Foundation manages daily operations, it’s the DAO that drives the direction of the ecosystem, ensuring community-led innovation.
+ApeCoin DAO 是 ApeCoin 生态系统的核心，使代币持有者能够直接影响其未来。作为一个去中心化自治组织，ApeCoin 赋予其持有者对项目、开发和倡议的投票治理权。虽然 Ape 基金会负责日常运营，但正是 DAO 推动生态系统的方向，确保由社区主导的创新。
 
-ApeCoin also serves as the primary currency within the ecosystem, including the highly anticipated Otherside metaverse. Through the DAO, ApeCoin empowers the community to shape Web3’s future, putting decision-making power in the hands of its users.
+ApeCoin 还作为生态系统内的主要货币，包括备受期待的 Otherside 元宇宙。通过 DAO，ApeCoin 赋予社区塑造 Web3 未来的能力，将决策权交到用户手中。
 
-## ApeCoin Protocol
+## ApeCoin 协议
 
-Before we get to getting started how to stake Ape, it also good is understanding the protocol. It is a key element of the ApeCoin ecosystem, serving as both a governance and utility token. As an ERC-20 token, it empowers the community by enabling ApeCoin holders to vote on proposals through the ApeCoin DAO. It also acts as a shared currency, facilitating transactions across various services, games, and events within the ecosystem. Additionally, ApeCoin provides exclusive access to unique experiences and incentivizes third-party developers to integrate the token into their projects, fueling the growth and expansion of the Web3 space.
+在我们开始学习如何进行 Ape Staking 之前，了解协议也是很重要的。它是 ApeCoin 生态系统的关键要素，既作为治理代币，也作为实用代币。作为 ERC-20 代币，它通过使 ApeCoin 持有者能够通过 ApeCoin DAO 对提案进行投票，赋能社区。它还充当共享货币，促进生态系统内各种服务、游戏和活动的交易。此外，ApeCoin 提供独特体验的独家访问权限，并激励第三方开发者将该代币集成到他们的项目中，从而推动 Web3 领域的增长和扩展。
 
-### About This Course  
+### 关于本课程
 
-Welcome to the **APE Staking course on PoL**, where you’ll learn everything you need to know about staking APE Coins and BAYC/MAYC NFTs. This course is designed to guide you in understanding the underlying contracts used for staking APE. Giving a better understanding when connecting and staking on an APE Staking platform. We'll also be using Ethereum Testnet which ensures you can practice safely without risking real funds.  
+欢迎来到 **PoL 上的 APE Staking 课程**，在这里你将学习有关 Staking APE Coins 和 BAYC/MAYC NFTs 的一切。此课程旨在帮助你理解用于 Staking APE 的基础合约，使你在连接并在 APE Staking 平台上进行 Staking 时能有更好的理解。我们还将使用以太坊测试网，这样你可以安全练习，而不会冒着使用真实资金的风险。
 
-By completing this course, you’ll not only gain hands-on experience with APE Staking, but you’ll also earn a **Proof of Learn (POL) POAP**, a blockchain-verified NFT to commemorate your achievement. This POAP is your badge of completion, demonstrating your mastery of APE Staking and your commitment to the ApeCoin community. 🐒
+完成本课程后，你不仅将获得 APE Staking 的实践经验，还将获得 **Proof of Learn (POL) POAP**，这是一个区块链验证的 NFT，用以纪念你的成就。这个 POAP 是你完成课程的标志，展示了你对 APE Staking 的掌握和你对 ApeCoin 社区的承诺。🐒

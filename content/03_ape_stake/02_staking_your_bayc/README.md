@@ -1,25 +1,25 @@
-# Staking a BAYC with $APE
+# 使用 $APE 质押 BAYC
 
-Staking your Bored Ape Yacht Club (BAYC) NFT alongside ApeCoin ($APE) is a great way to engage with the ApeCoin ecosystem and earn rewards. By this point, you should have already minted *100 $APE* and acquired a *BAYC* on the Ethereum Testnet. Now, you're ready to interact with the ApeCoin Staking Contract.
+将您的 **Bored Ape Yacht Club (BAYC)** NFT 与 **ApeCoin (APE)** 一起质押，是参与 ApeCoin 生态系统并赚取奖励的绝佳方式。在这个阶段，您应该已经铸造了 *100 $APE* 并在以太坊测试网上获得了 *BAYC*。现在，您已经准备好与 **ApeCoin Staking Contract** 进行交互。
 
-![](https://raw.githubusercontent.com/POLearn/staking-ape-coin/refs/heads/master/content/assets/images/ide_deposit_method.png)
+![Deposit Method](https://raw.githubusercontent.com/POLearn/staking-ape-coin/refs/heads/master/content/assets/images/ide_deposit_method.png)
 
-The core function for staking your NFTs in the ApeCoin ecosystem is the `_depositNft` function in the ApeCoin Staking Contract. This function allows users to deposit their NFTs, like BAYC tokens (or MAYC), into the staking contract. It securely handles the staking process by validating and processing the NFTs and associated ApeCoin and ensures proper security. It also will update both the user’s individual staked amount and the total staked amount for the pool. In our case it will be **pool 1**. It also adjusts the user's `rewardsDebt`, which tracks rewards based on their deposit, ensuring accurate reward attribution via the pool’s `accumulatedRewardsPerShare` value.
+在 ApeCoin 生态系统中，质押 NFT 的核心功能是 **ApeCoin Staking Contract** 中的 `_depositNft` 函数。此函数允许用户将他们的 NFT（如 BAYC 或 MAYC 代币）存入质押合约。它通过验证和处理 NFT 及相关的 ApeCoin，确保质押过程的安全性。它还会更新用户的个人质押金额以及池子的总质押金额。在本例中，我们将使用 **Pool 1**。此外，它还会调整用户的 `rewardsDebt`，该值根据他们的存款追踪奖励，确保通过池子的 `accumulatedRewardsPerShare` 值准确分配奖励。
 
-When you stake your NFT, the deposited ApeCoin amount is summed up in the `totalDeposit` variable, and a `DepositNft` event is triggered to notify the transaction. If you are staking ApeCoin, the total amount is transferred from your wallet to the staking contract, completing the process. This function ensures that only legitimate NFT owners can stake, and all staking actions comply with the pool’s rules.
+当您质押 NFT 时，存入的 ApeCoin 金额会在 `totalDeposit` 变量中累加，并触发 `DepositNft` 事件来通知交易。如果您在质押 ApeCoin，您的钱包中的总金额将转移到质押合约中，完成质押过程。此功能确保只有合法的 NFT 拥有者才能进行质押，所有质押操作都遵守池子的规则。
 
-For this process, we use the `SingleNFT` struct, which requires two key parameters: **tokenID** and **amount**. In the staking environment, you’ll use a structure like `[["BAYC_ID", "APECOIN_AMOUNT"]]` to input your staking data.
+在这个过程中，我们使用 `SingleNFT` 结构体，它需要两个关键参数：**tokenID** 和 **amount**。在质押环境中，您将使用类似 `[["BAYC_ID", "APECOIN_AMOUNT"]]` 的结构来输入您的质押数据。
 
-### Quest: Staking a BAYC
+### 任务：质押一个 BAYC
 
-To stake your BAYC with the ApeCoin Staking Contract and start earning rewards, input your minted BAYC ID and the amount of ApeCoin you wish to stake in the `SingleNFT` structure. For example, if your BAYC ID is `31` and you want to stake `90` $APE, the structure would look like this:
+要在 ApeCoin Staking Contract 中质押您的 BAYC 并开始赚取奖励，请输入您的已铸造的 BAYC ID 和您希望质押的 ApeCoin 数量，使用 `SingleNFT` 结构体。例如，如果您的 BAYC ID 是 `31`，并且您想质押 `90` $APE，结构体将如下所示：
 
 ```
 [["31","90000000000000000000"]]
 ```
 
-![](https://raw.githubusercontent.com/POLearn/staking-ape-coin/refs/heads/master/content/assets/images/ide_deposit_bayc.png)
+![BAYC Deposit](https://raw.githubusercontent.com/POLearn/staking-ape-coin/refs/heads/master/content/assets/images/ide_deposit_bayc.png)
 
-Once you’ve submitted the transaction, congratulations! You’ve officially staked your BAYC and committed some ApeCoin to the pool. By doing this, you’ve contributed to the growth of the ApeCoin ecosystem and can now begin reaping the rewards.
+一旦您提交了交易，恭喜！您已正式质押了您的 BAYC，并将一些 ApeCoin 提交到池中。通过这样做，您为 ApeCoin 生态系统的发展做出了贡献，并且现在可以开始获得奖励。
 
-> Don’t forget to submit the transaction to Proof of Learn to mint your "I Staked a BAYC" POAP as a reward for completing this task.
+> 别忘了将交易提交到 **Proof of Learn**，以铸造您的 **"I Staked a BAYC" POAP**，作为完成此任务的奖励。
